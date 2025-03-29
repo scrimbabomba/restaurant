@@ -1,0 +1,197 @@
+/* defaults */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Smythe", system-ui;
+}
+
+h1, h2, h3, p {
+    margin: 0
+}
+
+/* header */
+
+.container-top {
+    width: 600px;
+    height: 167px;
+    margin: 20px auto 0 auto;
+    padding: 46px;
+    background-image: url("images/bg-img.png");
+    background-size: cover;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 39px;
+    line-height: 24px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 14px;
+    margin-top: 19px;
+}
+
+/* main - items section */
+
+.container-middle {
+    width: 600px;
+    margin: 0 auto;
+    padding: 17px 46px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 50px 0;
+}
+
+.emoji {
+    font-size: 70px;
+}
+
+.name {
+    font-size: 28px;
+}
+
+.ingredients {
+    font-size: 16px;
+    color: #8B8B8B;
+    margin-top: 8px;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.btn-bg {
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #dedede;
+    border-radius: 50%;
+    display: flex;
+}
+
+.cross-btn {
+    margin: auto;
+    font-size: 32px;
+    font-family: inter;
+    font-weight: 200;
+}
+
+/* main - order section */
+
+.container-bottom {
+    /* display: none; */
+    width: 600px;
+    margin: 0 auto;
+    padding: 17px 46px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.order-list {
+    padding: 60px 0 30px 0;
+    border-bottom: 2px solid #393333;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+.order-name {
+    font-size: 28px;
+}
+
+.order-remove {
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+    color: #BBBBBB;
+}
+
+.order-price {
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.total {
+    font-size: 28px;
+    margin-top: 14px;
+}
+
+.order-btn {
+    margin-top: 52px;
+    background: #16DB99;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: 0;
+    padding: 28px 0;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 520px;
+    height: 500px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 5px 5px 255px #000000;   
+}
+
+.modal-inner {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.modal-inner p {
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+input[type="text"] {
+    color: #757575;
+    border: 1.5px solid #757575;
+    border-radius: 4px;
+    width: 100%;
+    padding: 16px 26px;
+    margin: 12px 0;
+}
+
+.thanks-modal {
+    text-align: center;
+    background: #ECFDF5;
+    color: #065F46;
+    font-size: 32px;
+    padding: 50px;
+    border-radius: 3px;
+    margin: 18px 0;
+}
